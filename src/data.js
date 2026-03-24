@@ -16,12 +16,12 @@ const projects = [
     live: "https://expense-tracker-main-frontend.netlify.app"
   },
   {
-    name: "Chat Application",
-    description: "Real-time messaging app using WebSockets. Features include private channels, media sharing, read receipts, and typing indicators with a clean modern UI.",
-    image: "/project-chatapp.png",
-    tags: ["React", "Node.js", "JavaScript"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "Blinkit Dataset Analysis",
+    description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
+    image: "/blinkit_dataset.png",
+    tags: ["Looker Studio", "Data Analytics"],
+    github: "https://github.com/aadit-vachher/Blinkit_dataset_analysis",
+    live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
   },
   {
     name: "Task Manager",
