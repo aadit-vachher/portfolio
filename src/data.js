@@ -1,11 +1,11 @@
 const projects = [
   {
-    name: "Analytics Dashboard",
-    description: "A real-time analytics dashboard built with React and D3.js. Tracks user engagement, conversion rates, and revenue metrics with interactive charts and filterable date ranges.",
-    image: "/project-dashboard.png",
-    tags: ["React", "JavaScript"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "Second Brain",
+    description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
+    image: "/secnod_brains.png",
+    tags: ["Node.js", "PostgreSQL", "Prisma"],
+    github: "https://github.com/aadit-vachher/second-brain",
+    live: "https://second-brain-orcin.vercel.app"
   },
   {
     name: "E-Commerce Store",
