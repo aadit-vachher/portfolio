@@ -8,12 +8,12 @@ const projects = [
     live: "https://second-brain-orcin.vercel.app"
   },
   {
-    name: "E-Commerce Store",
-    description: "Full-stack e-commerce platform with product listings, cart management, Stripe payment integration, and order tracking. Built with React frontend and Node.js backend.",
-    image: "/project-ecommerce.png",
-    tags: ["React", "Node.js"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "Expense Tracker",
+    description: "Helps users monitor spending habits and gain better control over personal finances through structured tracking. Built with React.js, Express, Prisma ORM, and JWT authentication with a clean modular backend structure.",
+    image: "/expense_tracker.png",
+    tags: ["React", "Express", "Prisma"],
+    github: "https://github.com/aadit-vachher/project_expense_tracker",
+    live: "https://expense-tracker-main-frontend.netlify.app"
   },
   {
     name: "Chat Application",
