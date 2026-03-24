@@ -1,5 +1,21 @@
 const projects = [
   {
+    name: "Blinkit Dataset Analysis",
+    description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
+    image: "/blinkit_dataset.png",
+    tags: ["Looker Studio", "Data Analytics"],
+    github: "https://github.com/aadit-vachher/Blinkit_dataset_analysis",
+    live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
+  },
+  {
+    name: "Road Accidents Dashboard",
+    description: "A data analytics dashboard built on a road accidents dataset. Analyzes accident patterns, trends, and risk factors to provide actionable insights for improving road safety and infrastructure planning.",
+    image: "/road_accidents.png",
+    tags: ["Google Sheets", "Data Analytics"],
+    github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
+    live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
+  },
+  {
     name: "Second Brain",
     description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
     image: "/secnod_brains.png",
@@ -16,14 +32,6 @@ const projects = [
     live: "https://expense-tracker-main-frontend.netlify.app"
   },
   {
-    name: "Blinkit Dataset Analysis",
-    description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
-    image: "/blinkit_dataset.png",
-    tags: ["Looker Studio", "Data Analytics"],
-    github: "https://github.com/aadit-vachher/Blinkit_dataset_analysis",
-    live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
-  },
-  {
     name: "Lethal World",
     description: "A pixel-perfect Figma design replica built entirely with HTML and CSS. Demonstrates attention to detail in translating design mockups into clean, responsive web pages.",
     image: "/lethal_world.png",
@@ -38,14 +46,6 @@ const projects = [
     tags: ["JavaScript"],
     github: "https://github.com/aadit-vachher/sabapplier",
     live: "https://sabapplier.netlify.app"
-  },
-  {
-    name: "Road Accidents Dashboard",
-    description: "A data analytics dashboard built on a road accidents dataset. Analyzes accident patterns, trends, and risk factors to provide actionable insights for improving road safety and infrastructure planning.",
-    image: "/road_accidents.png",
-    tags: ["Google Sheets", "Data Analytics"],
-    github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
-    live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
   }
 ]
 
