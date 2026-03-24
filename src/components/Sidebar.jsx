@@ -2,18 +2,18 @@ export default function Sidebar(){
   return(
     <aside className="sidebar">
       <img
-        src="/profile.png"
+        src="/meri_photo.jpg"
         alt="Profile"
         className="sidebar-avatar"
       />
       <h1 className="sidebar-name">Aadit Vachher</h1>
       <p className="sidebar-username">aadit-vachher</p>
       <p className="sidebar-bio">
-        Skilled problem-solver with 800+ questions solved and a 1800+ rating on
-        LeetCode, 1000+ on Codeforces. Deeply interested in data analytics with
-        hands-on experience in Python and JavaScript. I thrive in fast-paced,
-        problem-driven environments and enjoy combining analytical thinking with
-        technical execution.
+        Skilled problem-solver with 800+ questions solved and a 1800+ rating on 
+        LeetCode, 1000+ on Codeforces. Strong interest in data analytics, with hands-on 
+        experience in Python, JavaScript, Looker Studio, and Google Sheets for data-driven 
+        problem solving. I thrive in fast-paced, problem-driven environments and enjoy 
+        combining analytical thinking with technical execution.
       </p>
 
       <button className="sidebar-follow-btn">Follow / Contact</button>

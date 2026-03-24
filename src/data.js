@@ -24,28 +24,28 @@ const projects = [
     live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
   },
   {
-    name: "Task Manager",
-    description: "Kanban-style project management tool with drag-and-drop task cards, priority levels, deadline tracking, and team collaboration features.",
-    image: "/project-taskmanager.png",
-    tags: ["React", "JavaScript"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "Lethal World",
+    description: "A pixel-perfect Figma design replica built entirely with HTML and CSS. Demonstrates attention to detail in translating design mockups into clean, responsive web pages.",
+    image: "/lethal_world.png",
+    tags: ["HTML", "CSS"],
+    github: "https://github.com/aadit-vachher/capstone",
+    live: "https://lethalworld.netlify.app"
   },
   {
-    name: "Weather App",
-    description: "Location-based weather application using OpenWeatherMap API. Shows current conditions, 7-day forecast, humidity, wind speed, and UV index with dynamic backgrounds.",
-    image: "/project-weather.png",
-    tags: ["Python", "API"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "SAB Applier",
+    description: "A document upload portal built with JavaScript. Allows users to submit and manage documents through a clean, intuitive interface with structured form handling and file upload functionality.",
+    image: "/project-sabapplier.png",
+    tags: ["JavaScript"],
+    github: "https://github.com/aadit-vachher/sabapplier",
+    live: "https://sabapplier.netlify.app"
   },
   {
-    name: "Portfolio Builder",
-    description: "A developer portfolio generator that takes JSON config and outputs a fully responsive static site. Supports custom themes, project showcases, and blog integration.",
-    image: "/project-portfolio.png",
-    tags: ["Python", "JavaScript"],
-    github: "https://github.com",
-    live: "https://example.com"
+    name: "Road Accidents Dashboard",
+    description: "A data analytics dashboard built on a road accidents dataset. Analyzes accident patterns, trends, and risk factors to provide actionable insights for improving road safety and infrastructure planning.",
+    image: "/road_accidents.png",
+    tags: ["Google Sheets", "Data Analytics"],
+    github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
+    live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
   }
 ]
 
