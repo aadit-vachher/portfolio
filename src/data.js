@@ -1,8 +1,10 @@
+const base = import.meta.env.BASE_URL
+
 const projects = [
   {
     name: "Blinkit Dataset Analysis",
     description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
-    image: "/blinkit_dataset.png",
+    image: `${base}blinkit_dataset.png`,
     tags: ["Looker Studio", "Data Analytics"],
     github: "https://github.com/aadit-vachher/Blinkit_dataset_analysis",
     live: "https://lookerstudio.google.com/reporting/812bcbe2-3de6-4e8f-ac81-69e58314562e"
@@ -10,7 +12,7 @@ const projects = [
   {
     name: "Road Accidents Dashboard",
     description: "A data analytics dashboard built on a road accidents dataset. Analyzes accident patterns, trends, and risk factors to provide actionable insights for improving road safety and infrastructure planning.",
-    image: "/road_accidents.png",
+    image: `${base}road_accidents.png`,
     tags: ["Google Sheets", "Data Analytics"],
     github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
     live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
@@ -18,7 +20,7 @@ const projects = [
   {
     name: "Second Brain",
     description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
-    image: "/secnod_brains.png",
+    image: `${base}secnod_brains.png`,
     tags: ["Node.js", "PostgreSQL", "Prisma"],
     github: "https://github.com/aadit-vachher/second-brain",
     live: "https://second-brain-orcin.vercel.app"
@@ -26,7 +28,7 @@ const projects = [
   {
     name: "Expense Tracker",
     description: "Helps users monitor spending habits and gain better control over personal finances through structured tracking. Built with React.js, Express, Prisma ORM, and JWT authentication with a clean modular backend structure.",
-    image: "/expense_tracker.png",
+    image: `${base}expense_tracker.png`,
     tags: ["React", "Express", "Prisma"],
     github: "https://github.com/aadit-vachher/project_expense_tracker",
     live: "https://expense-tracker-main-frontend.netlify.app"
@@ -34,7 +36,7 @@ const projects = [
   {
     name: "Lethal World",
     description: "A pixel-perfect Figma design replica built entirely with HTML and CSS. Demonstrates attention to detail in translating design mockups into clean, responsive web pages.",
-    image: "/lethal_world.png",
+    image: `${base}lethal_world.png`,
     tags: ["HTML", "CSS"],
     github: "https://github.com/aadit-vachher/capstone",
     live: "https://lethalworld.netlify.app"
@@ -42,7 +44,7 @@ const projects = [
   {
     name: "SAB Applier",
     description: "A document upload portal built with JavaScript. Allows users to submit and manage documents through a clean, intuitive interface with structured form handling and file upload functionality.",
-    image: "/project-sabapplier.png",
+    image: `${base}project-sabapplier.png`,
     tags: ["JavaScript"],
     github: "https://github.com/aadit-vachher/sabapplier",
     live: "https://sabapplier.netlify.app"

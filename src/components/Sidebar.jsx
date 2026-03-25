@@ -2,7 +2,7 @@ export default function Sidebar(){
   return(
     <aside className="sidebar">
       <img
-        src="/meri_photo.jpg"
+        src={`${import.meta.env.BASE_URL}meri_photo.jpg`}
         alt="Profile"
         className="sidebar-avatar"
       />
