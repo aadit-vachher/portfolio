@@ -1,6 +1,14 @@
 const base = import.meta.env.BASE_URL
 
 const projects = [
+    {
+    name: "Uber Analysis",
+    description: "Uber Analysis about the fare and driver details",
+    image: `${base}dist/uber_analysis.png`, 
+    tags: ["Tableau"],
+    github: "https://github.com/aadit-vachher",
+    live: "https://public.tableau.com/views/UberDashboardnewwwwww/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+  },
   {
     name: "Blinkit Dataset Analysis",
     description: "Delivery performance dashboard showing on-time rate, delay distribution, delivery time versus distance patterns, and top delay reasons. Tracks trends by date and identifies outliers and partners driving delays to guide operational improvements.",
@@ -32,14 +40,6 @@ const projects = [
     tags: ["React", "Express", "Prisma"],
     github: "https://github.com/aadit-vachher/project_expense_tracker",
     live: "https://expense-tracker-main-frontend.netlify.app"
-  },
-  {
-    name: "Lethal World",
-    description: "A pixel-perfect Figma design replica built entirely with HTML and CSS. Demonstrates attention to detail in translating design mockups into clean, responsive web pages.",
-    image: `${base}lethal_world.png`,
-    tags: ["HTML", "CSS"],
-    github: "https://github.com/aadit-vachher/capstone",
-    live: "https://lethalworld.netlify.app"
   },
   {
     name: "SAB Applier",
