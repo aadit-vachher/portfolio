@@ -4,7 +4,7 @@ const projects = [
     {
     name: "Uber Analysis",
     description: "Uber Analysis about the fare and driver details",
-    image: `${base}dist/uber_analysis.png`, 
+    image: `${base}uber_analysis.png`, 
     tags: ["Tableau"],
     github: "https://github.com/aadit-vachher",
     live: "https://public.tableau.com/views/UberDashboardnewwwwww/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
