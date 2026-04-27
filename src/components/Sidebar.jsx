@@ -14,7 +14,13 @@ extracting insights, building dashboards, and solving real-world problems using 
 and performing analysis. Also i have a leetcode rating of 1800+ with 800+ questions
       </p>
 
-      <button className="sidebar-follow-btn">Follow / Contact</button>
+      <a
+        href={`${import.meta.env.BASE_URL}Aadit Vachher DVA.pdf`}
+        download="Aadit_Vachher_Resume.pdf"
+        className="sidebar-follow-btn"
+      >
+        Download Resume
+      </a>
 
       <div className="sidebar-info">
         <div className="sidebar-info-item">
