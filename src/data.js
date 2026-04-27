@@ -1,7 +1,15 @@
 const base = import.meta.env.BASE_URL
 
 const projects = [
-    {
+  {
+    name: "Brazil Ecommerce",
+    description: "A document upload portal built with JavaScript. Allows users to submit and manage documents through a clean, intuitive interface with structured form handling and file upload functionality.",
+    image: `${base}brazil_analysis.png`,
+    tags: ["Tableau","Python","Data Analytics"],
+    github: "https://github.com/aadit-vachher/Olist_Ecommerce_Business_Insights/tree/main",
+    live: "https://public.tableau.com/views/brazile-commerceanalysis/Overview?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+  },
+  {
     name: "Uber Analysis",
     description: "Uber Analysis about the fare and driver details",
     image: `${base}uber_analysis.png`, 
@@ -25,14 +33,14 @@ const projects = [
     github: "https://github.com/aadit-vachher/section-c_g-11_travel-and-infrastructure",
     live: "https://docs.google.com/spreadsheets/d/1zT9j58xiNe1nAsE5asIWHaov_ZkFqzPzI-yWX1NfUZo/edit?usp=sharing"
   },
-  {
-    name: "Second Brain",
-    description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
-    image: `${base}secnod_brains.png`,
-    tags: ["Node.js", "PostgreSQL", "Prisma"],
-    github: "https://github.com/aadit-vachher/second-brain",
-    live: "https://second-brain-orcin.vercel.app"
-  },
+  // {
+  //   name: "Second Brain",
+  //   description: "A digital space to capture ideas, organize thoughts, and retrieve information. Built with Node.js, Prisma, and PostgreSQL with JWT authentication. Features include protected routes, database relationships, and a structured knowledge system.",
+  //   image: `${base}secnod_brains.png`,
+  //   tags: ["Node.js", "PostgreSQL", "Prisma"],
+  //   github: "https://github.com/aadit-vachher/second-brain",
+  //   live: "https://second-brain-orcin.vercel.app"
+  // },
   {
     name: "Expense Tracker",
     description: "Helps users monitor spending habits and gain better control over personal finances through structured tracking. Built with React.js, Express, Prisma ORM, and JWT authentication with a clean modular backend structure.",
@@ -40,14 +48,6 @@ const projects = [
     tags: ["React", "Express", "Prisma"],
     github: "https://github.com/aadit-vachher/project_expense_tracker",
     live: "https://expense-tracker-main-frontend.netlify.app"
-  },
-  {
-    name: "SAB Applier",
-    description: "A document upload portal built with JavaScript. Allows users to submit and manage documents through a clean, intuitive interface with structured form handling and file upload functionality.",
-    image: `${base}project-sabapplier.png`,
-    tags: ["JavaScript"],
-    github: "https://github.com/aadit-vachher/sabapplier",
-    live: "https://sabapplier.netlify.app"
   }
 ]
 
