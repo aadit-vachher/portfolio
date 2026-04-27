@@ -9,11 +9,9 @@ export default function Sidebar(){
       <h1 className="sidebar-name">Aadit Vachher</h1>
       <p className="sidebar-username">aadit-vachher</p>
       <p className="sidebar-bio">
-        Skilled problem-solver with 800+ questions solved and a 1800+ rating on 
-        LeetCode, 1000+ on Codeforces. Strong interest in data analytics, with hands-on 
-        experience in Python, JavaScript, Looker Studio, and Google Sheets for data-driven 
-        problem solving. I thrive in fast-paced, problem-driven environments and enjoy 
-        combining analytical thinking with technical execution.
+        Data analytics enthusiast with strong skills in Python, Excel, Tableau, Looker Studio, and Google Sheets, focused on
+extracting insights, building dashboards, and solving real-world problems using data. Experienced in working with datasets
+and performing analysis. Also i have a leetcode rating of 1800+ with 800+ questions
       </p>
 
       <button className="sidebar-follow-btn">Follow / Contact</button>
